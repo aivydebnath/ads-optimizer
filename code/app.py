@@ -9,7 +9,7 @@ if 'action' not in st.session_state:
     st.session_state.action = None
 
 def show_start_page():
-    if st.button('Create'):
+    if st.button('Create Campaign'):
         st.session_state.page = 'select_option'
 
 def show_option_page():
